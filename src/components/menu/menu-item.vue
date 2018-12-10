@@ -23,7 +23,7 @@
         mixins: [ Emitter, mixin, mixinsLink ],
         props: {
             name: {
-                type: [String, Number],
+                type: [String, Number, Object],
                 required: true
             },
             disabled: {
